@@ -1,0 +1,11 @@
+kajak.brj.one {
+    redir https://www.aarhuskanokajak.dk/ 302
+}
+
+lindy.brj.one {
+    redir https://aarhuslindyhoppers.dk/ 302
+}
+
+svst.brj.one {
+    redir https://vigirbyenpuls.dk/svoemmehaller/aarhus-svoemmestadion/aabningstider 302
+}
