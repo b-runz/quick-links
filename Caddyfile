@@ -1,12 +1,11 @@
-{
-    auto_https off
+kajak.brj.one {
+    redir https://target1.com 302
 }
 
-:80 {
-    map {host} {target} {
-        kajak.brj.one https://www.aarhuskanokajak.dk/
-        lindy.brj.one https://aarhuslindyhoppers.dk/
-        svst.brj.one https://vigirbyenpuls.dk/svoemmehaller/aarhus-svoemmestadion/aabningstider
-    }
-    redir {target} 302
+lindy.brj.one {
+    redir https://target2.com 302
+}
+
+svst.brj.one {
+    redir https://target3.com 302
 }
