@@ -1,11 +1,11 @@
 kajak.brj.one {
-    redir https://target1.com 302
+    redir https://www.aarhuskanokajak.dk/ 302
 }
 
 lindy.brj.one {
-    redir https://target2.com 302
+    redir https://aarhuslindyhoppers.dk/ 302
 }
 
 svst.brj.one {
-    redir https://target3.com 302
+    redir https://vigirbyenpuls.dk/svoemmehaller/aarhus-svoemmestadion/aabningstider 302
 }
