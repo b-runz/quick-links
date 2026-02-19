@@ -1,11 +1,12 @@
-kajak.brj.one {
-    redir https://www.aarhuskanokajak.dk/ 302
+{
+    auto_https off
 }
 
-lindy.brj.one {
-    redir https://aarhuslindyhoppers.dk/ 302
-}
-
-svst.brj.one {
-    redir https://vigirbyenpuls.dk/svoemmehaller/aarhus-svoemmestadion/aabningstider 302
+:80 {
+    map {host} {target} {
+        kajak.brj.one https://www.aarhuskanokajak.dk/
+        lindy.brj.one https://aarhuslindyhoppers.dk/
+        svst.brj.one https://vigirbyenpuls.dk/svoemmehaller/aarhus-svoemmestadion/aabningstider
+    }
+    redir {target} 302
 }
