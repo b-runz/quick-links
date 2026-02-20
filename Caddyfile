@@ -5,7 +5,7 @@
 :80 {
     map {host} {target} {
         kajak.brj.one https://www.aarhuskanokajak.dk/
-        lindy.brj.one https://aarhuslindyhoppers.dk/
+        dans.brj.one https://aarhuslindyhoppers.dk/
         svst.brj.one https://vigirbyenpuls.dk/svoemmehaller/aarhus-svoemmestadion/aabningstider
     }
     redir {target} 302
